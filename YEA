@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cheese World</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background: #fff9f0;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #f5d89c;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    nav {
+      background-color: #ffecc7;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #5b3921;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #704214;
+    }
+
+    footer {
+      background-color: #f5d89c;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🧀 Cheese World</h1>
+    <p>Discover the art, history, and flavor of cheese</p>
+  </header>
+
+  <nav>
+    <a href="#history">History</a>
+    <a href="#types">Types</a>
+    <a href="#funfacts">Fun Facts</a>
+  </nav>
+
+  <section id="history">
+    <h2>The History of Cheese</h2>
+    <p>Cheese dates back over 7,000 years, possibly discovered by accident when milk was stored in animal stomachs. Ancient civilizations from Mesopotamia to Egypt valued cheese for its taste and shelf life. It has since evolved into a symbol of culture and craftsmanship across the world.</p>
+  </section>
+
+  <section id="types">
+    <h2>Popular Types of Cheese</h2>
+    <ul>
+      <li><strong>Brie:</strong> Soft, creamy, and buttery — from France.</li>
+      <li><strong>Cheddar:</strong> Sharp and bold — from England.</li>
+      <li><strong>Feta:</strong> Crumbly and salty — from Greece.</li>
+      <li><strong>Gouda:</strong> Mild and sweet — from the Netherlands.</li>
+    </ul>
+  </section>
+
+  <section id="funfacts">
+    <h2>Fun Cheese Facts</h2>
+    <ul>
+      <li>There are over 1,800 types of cheese in the world.</li>
+      <li>Cheddar cheese is the most widely consumed cheese globally.</li>
+      <li>Some cheeses are aged for more than 10 years!</li>
+      <li>Switzerland has the highest per capita cheese consumption.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Cheese World. Crafted with care 🧀</p>
+  </footer>
+</body>
+</html>
